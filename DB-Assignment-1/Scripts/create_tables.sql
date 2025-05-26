@@ -4,11 +4,11 @@ USE bookstore;
 CREATE TABLE authors (
 author_id INT AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(100) NOT NULL,
-country  VARCHAR(100) NOT NULL,
+au_country  VARCHAR(100) NOT NULL,
 birth_year INT
 );
 
-INSERT INTO authors (name, country, birth_year) VALUES
+INSERT INTO authors (name, au_country, birth_year) VALUES
 ('George Orwell', 'UK',	1903),
 ('Margaret Atwood', 'Canada', 1939),
 ('Haruki Murakami', 'Japan', 1949),
@@ -46,7 +46,7 @@ CREATE TABLE customers (
 customer_id INT AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(100) NOT NULL,
 email VARCHAR(100) NOT NULL,
-city VARCHAR(100) NOT NULL
+country VARCHAR(100) NOT NULL
 );
 
 INSERT INTO customers (name, email, country) VALUES
@@ -94,14 +94,14 @@ FOREIGN KEY (book_id) REFERENCES books(book_id)
 INSERT INTO order_items (order_id, book_id, quantity) VALUES
 (1, 1, 1),
 (1, 3, 1),
-(2, 2, 1),
-(3, 5, 1),
+(2, 2, 2),
+(3, 5, 4),
 (3, 8, 1),
-(4, 7, 1),
+(4, 7, 2),
 (5, 6, 1),
-(6, 9, 2),
+(6, 9, 8),
 (7, 4, 1),
-(8, 10, 1);
+(8, 10, 2);
 
 
 
