@@ -49,17 +49,17 @@ email VARCHAR(100) NOT NULL,
 city VARCHAR(100) NOT NULL
 );
 
-INSERT INTO customers (name, email, city) VALUES
-('Anna Petrenko', 'anna.petrenko@email.com', 'Kyiv'),
-('John Smith', 'jsmith@gmail.com', 'London'),
-('Maria Gonzalez', 'maria.gonz@mail.com', 'Madrid'),
-('Ivan Kovalenko', 'kovalenko@ukr.net', 'Lviv'),
-('Sarah Johnson', 'sarahj@aol.com', 'New York'),
-('Dmytro Hrytsenko', 'd.hryts@ukr.net', 'Odesa'),
-('Emily Zhang', 'emilyz@china.cn', 'Beijing'),
-('Roberto Mancini', 'rmancini@italy.it', 'Rome'),
-('Lena Kravets', 'lena.k@gmail.com', 'Kharkiv'),
-('Tom Walker', 'tom.walker@yahoo.com', 'Boston');
+INSERT INTO customers (name, email, country) VALUES
+('Anna Petrenko', 'anna.petrenko@email.com', 'Ukraine'),
+('John Smith', 'jsmith@gmail.com', 'United Kingdom'),
+('Maria Gonzalez', 'maria.gonz@mail.com', 'Spain'),
+('Ivan Kovalenko', 'kovalenko@ukr.net', 'Ukraine'),
+('Sarah Johnson', 'sarahj@aol.com', 'United States'),
+('Dmytro Hrytsenko', 'd.hryts@ukr.net', 'Ukraine'),
+('Emily Zhang', 'emilyz@gmail.com', 'Korea'),
+('Roberto Mancini', 'rmancini@italy.it', 'Italy'),
+('Lena Kravets', 'lena.k@gmail.com', 'Ukraine'),
+('Tom Walker', 'tom.walker@yahoo.com', 'United States');
 
 CREATE TABLE orders (
 orders_id INT AUTO_INCREMENT PRIMARY KEY,
