@@ -1,5 +1,5 @@
-CREATE DATABASE bookstore;
-USE bookstore;
+CREATE DATABASE bookstore02;
+USE bookstore02;
 
 CREATE TABLE authors (
 author_id INT AUTO_INCREMENT PRIMARY KEY,
