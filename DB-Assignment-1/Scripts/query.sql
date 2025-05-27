@@ -21,4 +21,3 @@ UNION
 SELECT * FROM totals WHERE country = 'United States'
 ORDER BY sum_books ASC
 LIMIT 10;
-
