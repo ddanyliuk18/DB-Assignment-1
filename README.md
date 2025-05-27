@@ -113,5 +113,5 @@ SELECT * FROM totals WHERE country = 'Ukraine'             --  Обираємо 
 UNION
 SELECT * FROM totals WHERE country = 'United States'       --  Додаємо покупців зі США
 ORDER BY sum_books ASC                                     --  Сортуємо за зростанням суми витрат
-LIMIT 10;                                                  --  Обмежуємо до 10 результатів
+LIMIT 3;                                                  --  Обмежуємо до 3 результатів
 
