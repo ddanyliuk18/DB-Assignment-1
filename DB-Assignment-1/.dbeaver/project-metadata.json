@@ -1,1 +1,1 @@
-{"resources":{"Scripts/create_tables.sql":{"default-datasource":"mysql8-19709771571-39d1eb128bc3cea7"},"Scripts/query.sql":{"default-datasource":"mysql8-19709771571-39d1eb128bc3cea7"}}}
+{"resources":{"Scripts/create_tables.sql":{"default-datasource":"mysql8-19709771571-39d1eb128bc3cea7"},"Scripts/insert_data.sql":{"default-datasource":"mysql8-19709771571-39d1eb128bc3cea7"}}}
